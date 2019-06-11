@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 <link rel="stylesheet" href="github-activity-0.1.4.min.css">
+<link rel="stylesheet" href="base.css">
 
 <script src="//code.jquery.com/jquery-1.11.0.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
@@ -30,8 +31,15 @@
   }
 </style>
 </head>
+<body>
+    <div class="topnav">
+        <a href="/index.html">Home</a></a>
+        <a href="https://github.com/doadin">My Github Page</a>
+        <a class="active" href="/activity.html">My Github Activity</a>
+    </div>
 <h1><i class="fa fa-github"></i> GitHub Activity Stream</h1>
 <input type="hidden" id="username" value="Doadin" />
 <button id="update">Update</button>
 <div id="feed"></div>
+</body>
 </html>

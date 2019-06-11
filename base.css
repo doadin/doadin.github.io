@@ -1,7 +1,38 @@
-
+body {
+    background-color: #10B0F7;
+}
 
 li {
   float: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.nav a:hover {
+  background-color: #7CD5FD;
+  color: black;
 }
 
 .topnav {
