@@ -58,10 +58,3 @@ li {
   background-color: #7CD5FD;
   color: black;
 }
-
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #333;
-}
